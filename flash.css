@@ -661,11 +661,12 @@ font-size: 1.5rem;}
       
    .shu {
     background-color: white;
-    margin-top: 2rem;
        width:100%;
        position: relative;
        right:0%;     
-       height: 100%;   
+       height: 30%;   margin-top: 0rem;
+       margin-bottom: 0rem;
+   padding-top: 0rem;
 
 } .shu img {
    width: 100%;      
