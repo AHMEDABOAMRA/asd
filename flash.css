@@ -384,14 +384,14 @@ font-size: 2rem;
 color: white;
 }
 .shu{
-   width:100%;
-    background-color: white;
-    margin-top: 10rem;
-margin-right: 20rem;        
- 
-    
-    
-}.ersd h1{
+    width:100%;
+     background-color: white;
+     margin-top: 10rem;
+ margin-right: 20rem;        
+  
+     
+     
+ }.ersd h1{
 margin-left: 1rem
 }.ersd p{
 margin-left: 1rem
@@ -681,12 +681,16 @@ margin-top: 2rem;
  .er p{
 font-size: 1.5rem;}  
       
-   .shu {
-    background-color: white;
-       width:100%;
-       
+.shu{
+    width:100%;
+     background-color: white;
+     margin-top: 10rem;
+ 
+ position: relative;    left: 1rem;        
 
-} .shu img {
+     
+     
+ } .shu img {
    width: 100%;      
 }
 .five h8{
