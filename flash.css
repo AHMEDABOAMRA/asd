@@ -667,6 +667,7 @@ font-size: 1.5rem;}
        height: 30%;   margin-top: 0rem;
        margin-bottom: 0rem;
    padding-top: 0rem;
+   display:none;
 
 } .shu img {
    width: 100%;      
