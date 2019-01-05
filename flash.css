@@ -193,10 +193,7 @@ margin-top: 3rem;
 background-color:#ff002a       ;
  
 }
-.rfs h1,p{
 
-      ;
-}
 
 .ax img{
 
@@ -243,28 +240,17 @@ text-align: center;
     
 }
 
-.col-md-9 div{
-text-align: left;    width: 280px;
-    height: 160px;
-    background-color: white;
-float: right;
+.nine{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding: 0rem;
+    grid-gap: 1rem;
+    margin-left: 20rem;    }.nine img{
+        width: 100%;
+      
 
-}
-
-.col-md-9{
-    margin-left: 16rem;
-
-}
-.col-md-9 h2{
-font-size: 1.5rem;
-}
-
-.col-md-9 div img{
-    width: 250px;
-    height: 160px;
-    background-color: blue;
-
-}
+        }
 
 .svg{
     width: 100%;
@@ -411,7 +397,7 @@ margin-left: 1rem
 margin-left: 1rem
 }
 .ers{
-   width 100%;
+   width: 100%;
 }
 .ersd h1 {
 font-size: 2rem;
@@ -529,7 +515,7 @@ border-bottom: 1px solid black;
 
    
 
-  @media only screen and (min-width: 320px) and (max-width: 1000px){
+  @media only screen and (min-width: 320px) and (max-width: 1024px){
 .con{
 display: grid;
                 /*grid-template-columns: 1fr 1fr 1fr ; */
@@ -561,7 +547,20 @@ width: 100%      ;
        .ax2 img{
 width: 90%      ;
 }
+.nine{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr  ;
+    padding: 0rem;
+    position: relative;
+    right: 20rem;
+    grid-gap: 1rem;
+   
+    }.nine img{
+        width: 100%;
       
+
+        }
       
      .rfs{
   
@@ -576,13 +575,10 @@ width: 90%      ;
 
 }   
       
-  .col-md-9{
-    margin-right:2rem ;
-
-}
+ 
       .svg{
     width: 100%;
-    height: 290px;
+    height:400px;
     background-color: white;
     display: grid;
     grid-template-columns: 1fr;
@@ -599,8 +595,8 @@ grid-row-gap: 1em;*/
 
 }
 .what {
-    width: 120%;
-    height: 500px;
+    width: 80%;
+    height: 700px;
     margin-right: 20rem;
     font-size: 1rem;
 }
@@ -616,8 +612,8 @@ margin-top: 2rem;
 
 }  
   .yq{
-    width: 100%;
-    height: 160px;
+    width: 80%;
+    height: 360px;
     margin-top: 2rem;
    
     margin-left: 1rem;
@@ -628,7 +624,7 @@ margin-top: 2rem;
    
   .cb{
       margin-top: 20rem;
-   width:120%;
+   width:100%;
     height: 100%;
     background-color: black;
          display: grid;
@@ -644,7 +640,7 @@ margin-top: 2rem;
 
     }
 .banner {
-    width: 120%;
+    width: 100%;
    
 }
       
@@ -668,6 +664,11 @@ font-size: 1.5rem;}
     background-color: white;
     margin-top: 2rem;
        width:100%;
+       position: relative;
+       right:0%;        
+
+} .shu img {
+   width: 100%;      
 
 }
 .five h8{
@@ -680,14 +681,16 @@ font-size: 1.5rem;}
 }
 
 .five{
+    width: 100%;
 text-align: center;
     position: absolute;
     margin-top: 5rem;
+    display: none;
   }
 
 .three {
    z-index: 1;
-    width: 80%;
+    width: 100%;
     height: 100%;
     
 }   
