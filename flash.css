@@ -595,8 +595,8 @@ grid-row-gap: 1em;*/
 
 }.imc{
     box-shadow:  black;
-    width:100%;
-    height: 500px;
+    width:70%;
+    height: 200px;
     background-color: white;
     margin-top: 5rem;
 display: grid;
@@ -612,7 +612,7 @@ grid-row-gap: 1em;*/
   
 }
 .what{
-height: 170px;}
+height: 190px;}
 
 .what h5{
     
@@ -689,7 +689,6 @@ font-size: 1.5rem;}
        height: 30%;   margin-top: 0rem;
        margin-bottom: 0rem;
    padding-top: 0rem;
-   display:none;
 
 } .shu img {
    width: 100%;      
