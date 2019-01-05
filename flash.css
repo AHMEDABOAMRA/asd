@@ -596,7 +596,7 @@ grid-row-gap: 1em;*/
 }
 .what {
     width: 80%;
-    height: 700px;
+    height:100%;
     margin-right: 20rem;
     font-size: 1rem;
 }
@@ -613,7 +613,7 @@ margin-top: 2rem;
 }  
   .yq{
     width: 80%;
-    height: 360px;
+    height: 100%;
     margin-top: 2rem;
    
     margin-left: 1rem;
@@ -669,7 +669,7 @@ font-size: 1.5rem;}
 
 } .shu img {
    width: 100%;      
-
+margin-bottom: 4rem;
 }
 .five h8{
    
